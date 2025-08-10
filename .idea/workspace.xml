@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3addb4d-7d98-435e-bfc8-c47c1c8b6a92" name="Changes" comment="holberton task">
-      <change beforePath="$PROJECT_DIR$/0x00-java-hello_world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintFloatVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/PrintFloatVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintFormattingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/PrintFormattingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintIntegerVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/PrintIntegerVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Println.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/Println.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintlnStringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/PrintlnStringConcat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrintlnStringVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-java-hello_world/PrintlnStringVariable.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3addb4d-7d98-435e-bfc8-c47c1c8b6a92" name="Changes" comment="holberton task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +39,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aqil\Downloads\holbertonschool-java\0x00-java-hello_world" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754853406158</updated>
-      <workItem from="1754853407330" duration="1034000" />
+      <workItem from="1754853407330" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="holberton task">
       <option name="closed" value="true" />
@@ -73,7 +70,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754854374976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="holberton task">
+      <option name="closed" value="true" />
+      <created>1754854635665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754854635665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
