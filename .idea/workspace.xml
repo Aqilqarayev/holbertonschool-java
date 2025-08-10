@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3addb4d-7d98-435e-bfc8-c47c1c8b6a92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x00-java-hello_world" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrintlnStringVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Println.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Println.java" beforeDir="false" afterPath="$PROJECT_DIR$/Println.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3addb4d-7d98-435e-bfc8-c47c1c8b6a92" name="Changes" comment="holberton task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +28,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -52,11 +48,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754853406158</updated>
-      <workItem from="1754853407330" duration="332000" />
+      <workItem from="1754853407330" duration="693000" />
     </task>
+    <task id="LOCAL-00001" summary="holberton task">
+      <option name="closed" value="true" />
+      <created>1754854041386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754854041386</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Println.java" />
+    <MESSAGE value="holberton task" />
+    <option name="LAST_COMMIT_MESSAGE" value="holberton task" />
   </component>
 </project>
