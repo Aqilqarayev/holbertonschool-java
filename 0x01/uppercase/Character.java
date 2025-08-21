@@ -1,4 +1,3 @@
-package task2;
 
 public class Character {
     public static boolean isUpper(char c) {

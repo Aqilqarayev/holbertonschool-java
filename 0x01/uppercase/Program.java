@@ -1,6 +1,3 @@
-package task2;
-
-import task2.Character;
 
 public class Program {
     public static void main(String[] args) {
