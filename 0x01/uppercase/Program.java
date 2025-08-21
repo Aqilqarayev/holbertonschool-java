@@ -1,3 +1,7 @@
+package task2;
+
+import task2.Character;
+
 public class Program {
     public static void main(String[] args) {
         boolean characterInUppercase1 = Character.isUpper('a');
