@@ -1,3 +1,5 @@
+import exceptions.InvalidBookException;
+import exceptions.InvalidAuthorException;
 public class GoldEditionBook extends Book{
     public GoldEditionBook(String title, String author, double price) throws Exception {
         super(title, author, price);
