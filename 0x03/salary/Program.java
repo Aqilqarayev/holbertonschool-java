@@ -11,34 +11,22 @@ public class Program {
         Employee documentationEmployee2 = new Employee(3000);
         Manager documentationManager = new Manager(4980);
 
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                engineeringEmployee1.getFixedSalary(),
-                engineeringEmployee1.calculateTotalSalary(engineeringDepartment),
-                engineeringEmployee1.calculateBonus(engineeringDepartment));
+        printLine(engineeringEmployee1, engineeringDepartment);
+        printLine(engineeringEmployee2, engineeringDepartment);
+        printLine(engineeringManager, engineeringDepartment);
+        printLine(documentationEmployee1, documentationDepartment);
+        printLine(documentationEmployee2, documentationDepartment);
+        printLine(documentationManager, documentationDepartment);
+    }
 
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                engineeringEmployee2.getFixedSalary(),
-                engineeringEmployee2.calculateTotalSalary(engineeringDepartment),
-                engineeringEmployee2.calculateBonus(engineeringDepartment));
-
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                engineeringManager.getFixedSalary(),
-                engineeringManager.calculateTotalSalary(engineeringDepartment),
-                engineeringManager.calculateBonus(engineeringDepartment));
-
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                documentationEmployee1.getFixedSalary(),
-                documentationEmployee1.calculateTotalSalary(documentationDepartment),
-                documentationEmployee1.calculateBonus(documentationDepartment));
-
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                documentationEmployee2.getFixedSalary(),
-                documentationEmployee2.calculateTotalSalary(documentationDepartment),
-                documentationEmployee2.calculateBonus(documentationDepartment));
-
-        System.out.printf("Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f\n",
-                documentationManager.getFixedSalary(),
-                documentationManager.calculateTotalSalary(documentationDepartment),
-                documentationManager.calculateBonus(documentationDepartment));
+    private static void printLine(Employee emp, Department dept) {
+        String line = String.format(
+                "Fixed Salary: %.2f - Total Salary: %.2f - Bonus Amount: %.2f",
+                emp.getFixedSalary(),
+                emp.calculateTotalSalary(dept),
+                emp.calculateBonus(dept)
+        );
+        // nöqtəni vergüllə əvəz et
+        System.out.println(line.replace('.', ','));
     }
 }
