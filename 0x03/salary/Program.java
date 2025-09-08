@@ -26,7 +26,6 @@ public class Program {
                 emp.calculateTotalSalary(dept),
                 emp.calculateBonus(dept)
         );
-        // nöqtəni vergüllə əvəz et
         System.out.println(line.replace('.', ','));
     }
 }
