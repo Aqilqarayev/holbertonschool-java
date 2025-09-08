@@ -7,6 +7,7 @@ public class BasicBankAccount {
         this.accountNumber=accountNumber;
         this.balance=0.00;
     }
+
     public String getAccountNumber(){
         return accountNumber;
     }
@@ -14,9 +15,11 @@ public class BasicBankAccount {
     public double getBalance() {
         return balance;
     }
+
     public double getAnnualInterestRate(){
         return annualInterestRate;
     }
+
     public void deposit(double value) throws InvalidOperationException {
         if (value <= 0) {
             throw new InvalidOperationException("Deposit amount must be greater than 0");
@@ -24,7 +27,6 @@ public class BasicBankAccount {
         balance += value;
     }
 
-    // Withdraw method
     public void withdraw(double value) throws InvalidOperationException {
         if (value <= 0) {
             throw new InvalidOperationException("Withdrawal amount must be greater than 0");
