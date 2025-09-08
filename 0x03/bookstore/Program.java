@@ -1,6 +1,5 @@
 public class Program {
     public static void main(String[] args) {
-
         try {
             Book book1 = new Book("Robinson Crusoe", "Daniel Defoe", 56);
             printBook(book1);
@@ -23,8 +22,8 @@ public class Program {
         }
 
         try {
-            Book book2 = new Book("Dracula", "Bram Stoker", 15.99);
-            printBook(book2);
+            Book book4 = new Book("ab", "Test Author", 10); // Invalid book title
+            printBook(book4);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
